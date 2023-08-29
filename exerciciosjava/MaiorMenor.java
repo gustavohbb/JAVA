@@ -29,5 +29,6 @@ public class MaiorMenor {
         }
         System.out.printf("O maior número é %s\n",maior);
         System.out.printf("O menor número é %s", menor);
+        entrada.close();
     }
 }
