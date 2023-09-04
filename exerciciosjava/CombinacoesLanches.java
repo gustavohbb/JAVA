@@ -23,6 +23,8 @@ public class CombinacoesLanches {
             System.out.println("Não pode ser entregue ");
         } else if (lanch == 3 && bebi == 1) {
             System.out.println("Não pode ser entregue ");
+        } else if (lanch > 3 && bebi > 3) {
+            System.out.println("Pedido invalido");
         } else {
             System.out.println("Pedido enviado com sucesso!");
         }
