@@ -114,7 +114,7 @@ public class ExeciciosAvancados {
         }
         return impares;
     }
-    public static String fibonacci() {
+    public static String fibonacci() { // Questão 10
         int n = 1;
         int sequencia = 0;
         int aux;
