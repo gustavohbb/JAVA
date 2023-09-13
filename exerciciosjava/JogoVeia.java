@@ -24,25 +24,25 @@ public class JogoVeia {
                     v[0][0] = 2;
                     break;
                 case 2:
-                    v[1][0] = 2;
+                    v[0][1] = 2;
                     break;
                 case 3:
-                    v[2][0] = 2;
+                    v[0][2] = 2;
                     break;
                 case 4:
-                    v[0][1] = 2;
+                    v[1][0] = 2;
                     break;
                 case 5:
                     v[1][1] = 2;
                     break;
                 case 6:
-                    v[1][1] = 2;
+                    v[1][2] = 2;
                     break;
                 case 7:
-                    v[0][2] = 2;
+                    v[2][0] = 2;
                     break;
                 case 8:
-                    v[1][2] = 2;
+                    v[2][1] = 2;
                     break;
                 case 9:
                     v[2][2] = 2;
@@ -68,25 +68,25 @@ public class JogoVeia {
                     v[0][0] = 1;
                     break;
                 case 2:
-                    v[1][0] = 1;
+                    v[0][1] = 1;
                     break;
                 case 3:
-                    v[2][0] = 1;
+                    v[0][2] = 1;
                     break;
                 case 4:
-                    v[0][1] = 1;
+                    v[1][0] = 1;
                     break;
                 case 5:
                     v[1][1] = 1;
                     break;
                 case 6:
-                    v[2][1] = 1;
+                    v[1][2] = 1;
                     break;
                 case 7:
-                    v[0][2] = 1;
+                    v[2][0] = 1;
                     break;
                 case 8:
-                    v[1][2] = 1;
+                    v[2][1] = 1;
                     break;
                 case 9:
                     v[2][2] = 1;
