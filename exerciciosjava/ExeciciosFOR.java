@@ -31,8 +31,8 @@ public class ExeciciosAvancados {
     }
     public static int maior() { //Questão 3
         Scanner in = new Scanner(System.in);
-        int maior = -9999999;
-        for (int i = 0; i <= 200; i++) {
+        int maior = Integer.MIN_VALUE;
+        for (;;) {
            int n = in.nextInt();
            if (n > maior) {
                maior = n;
@@ -52,8 +52,8 @@ public class ExeciciosAvancados {
     }
     public static int menor() { // Questão 5
         Scanner in = new Scanner(System.in);
-        int menor = 9999999;
-        for (int i = 0; i <= 200; i++) {
+        int menor = Integer.MAX_VALUE;
+        for (;;) {
             int n = in.nextInt();
             if (n < menor) {
                 menor = n;
